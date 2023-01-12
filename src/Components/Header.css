@@ -1,0 +1,110 @@
+.cardname {
+  background-image: linear-gradient(to right, #ff864c, #800080);
+  margin: 10px;
+}
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 10px;
+  color: #800080;
+}
+.profile {
+  color: #800080;
+}
+.btn-primary {
+  opacity: 100%;
+}
+.friend {
+  color: #800080;
+  display: flex;
+  margin-left: 90px;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.footer {
+  color: #800080;
+  float: left;
+  margin-left: 110px;
+}
+.card-deck div {
+  margin: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  border-color: white;
+}
+button {
+  color: white;
+}
+.title {
+  float: left;
+  color: white;
+}
+.box {
+  display: inline;
+  margin: 20px;
+}
+.wallet {
+  color: #800080;
+}
+.referral {
+  color: #800080;
+  margin-left: 50px;
+}
+.three {
+  color: #800080;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.refer {
+  margin-right: 950px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.nav {
+  color: #800080;
+}
+.profile {
+  color: #800080;
+  font-weight: bold;
+}
+.date {
+  color: white;
+}
+.tutedude {
+  width: 160px;
+  height: 63px;
+}
+.enrolled {
+  color: white;
+  margin-left: -158px;
+}
+.ensecond {
+  margin-left: -20%;
+}
+.cardname button {
+  margin: 5px;
+  border-radius: 15px;
+}
+.three > span {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+.enrolled-second > div {
+  margin-left: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box1 {
+    float: left;
+  }
+  .box2 {
+    float: right;
+  }
+}
